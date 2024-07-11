@@ -31,9 +31,11 @@ export default function Home() {
         <h1  className="mb-3 text-2xl font-semibold">Koltuk Yıkama</h1>
         <Image
         src="https://derinyikama.com.tr/imagest/crop-jpg-w550xh550-homeimage.webp"
+        alt="koltuk yıkama"
         width={550}
         height={550}
-        ></Image>
+        priority
+        />
         <div className="w-full">
           <ul>
             <li> Buharlı Koltuk Yıkama </li>
