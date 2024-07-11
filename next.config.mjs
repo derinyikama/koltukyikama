@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {images: {
+const nextConfig = {
+    distDir: "build",
+    images: {
         remotePatterns: [
             {
                 protocol: 'https',
@@ -8,6 +10,7 @@ const nextConfig = {images: {
                 pathname: '**',
             },
         ],
-    },};
+    },
+};
 
 export default nextConfig;
